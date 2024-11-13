@@ -1,0 +1,172 @@
+body
+{
+  background-image:url("bgimg.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  
+
+color: white;
+}
+ul {
+         list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid #00abf0;
+  border-radius: 15%;
+  margin-left: 5px;
+  
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  border-bottom: 3px solid rgba(0, 0, 255, 0.63);
+}
+img
+{
+border-block: solid black 10px;
+}
+a.active {
+  border-bottom: 3px solid rgba(0, 0, 255, 0.63);
+}
+nav {
+  width: max-content;
+  height: max-content; /* Full width */
+  display: flex;
+  /* justify-content: center; Center the navbar horizontally */
+  padding: 20px 0;
+}
+
+
+.navbar {
+  /* margin-left: 500px; */
+  margin-top: -20px;
+  padding-top: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar ul li {
+  list-style:none;
+  font-size:15px;
+  /* text-align:left; */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 2px 25px;
+  border-radius: 20px;
+}
+
+.navbar ul li a:hover {
+  color:white;
+  background-color: transparent;
+}
+@media screen and (max-width: 1235px) {
+ .navbar{
+    margin-right: 500px;
+ }
+ .navbar ul {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+    
+  }
+
+  .navbar ul li {
+    margin: 10px 0;
+    display: block;
+          text-align: center;
+     
+  }
+
+   .navbar ul li a {
+         
+         text-align: center;
+    }
+ 
+    }
+    @media screen and (max-width: 1100px)
+    {
+      .flex{
+        flex-direction: column;
+      }
+      p{
+        font-size: 22px;
+      }
+      .text p{
+        font-size:73px;
+        text-shadow: 3px 3px black;
+      }
+    }
+    @media screen and (max-width: 880px)
+{
+.text p{
+        font-size: 67px;
+        text-shadow: 3px 3px black;
+      }
+     p{
+      font-size:20px;
+     }
+}
+@media screen and (max-width: 640px)
+{
+.text p{
+        font-size: 60px;
+        /* text-shadow: 3px 3px black; */
+      }
+     p{
+      font-size:18px;
+     }
+}
+footer {
+  background-color: rgb(65, 65, 81);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links  {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+

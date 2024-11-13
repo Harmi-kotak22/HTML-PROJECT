@@ -1,0 +1,25 @@
+body
+{
+background-image: url("hobbybg.jpg");
+
+}
+h1
+{
+color: white;
+border: 4px solid lightblue;
+}
+h2
+{
+color: lightblue;
+border: 5px dotted white;
+}
+p
+{
+color: pink;
+font-weight: bold;
+text-decoration: underline;
+}
+a
+{
+color: cyan;
+}

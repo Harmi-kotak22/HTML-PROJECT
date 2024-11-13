@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="stylesheet_project.css">
+<title>
+INTRODUCING MYSELF..!!
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 
+  <style> 
+  .align
+  {
+    align:center;
+  }
+
+
+ 
+
+    .btn-box a
+    {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: left;
+        width: 150px;
+        height: 100%;
+        background:#00abf0;
+        border: 2px solid #00abf0;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #081b29;
+        text-decoration: none;
+        font-weight: 600;
+        letter-spacing: 2px;
+        z-index : 1;
+        overflow: hidden;
+        transition: .5s;
+        margin-left: 30px;
+    }
+    
+    .btn-box a:nth-child(1)
+    {
+        background: transparent;
+        color: #00abf0;
+    }
+    
+    .btn-box a::before
+    {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #081b29;
+        z-index: -1;
+        transition:.5s;
+    }
+    
+    .btn-box a:hover:before 
+    {
+        width: 100%;
+    }
+    
+    .btn-box a:nth-child(1):hover
+    {
+        color:#081b29 ;
+    }
+
+    
+    .btn-box a:nth-child(1)::before
+    {
+        background: #00abf0;    
+    }
+    
+    
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* .flex-item-left {
+      flex: 50%;
+    }
+    
+    .flex-item-right {
+      flex: 50%;
+    } */
+    
+    /* Responsive layout - makes a one column layout instead of a two-column layout */
+    /* @media only screen and (max-width: 768px) {
+      .flex-item-right, .flex-item-left {
+        display: block;
+        flex: 0 0 100%;
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      .flex-item-right, .flex-item-left {
+        flex: 0 0 100%;
+        display: block;
+      }
+    } */
+    .container {
+ display: flex;
+}
+    .column {
+ flex: 50%;
+ padding: 10px;
+}
+    
+        .image {  
+        width: 60%; 
+        height: auto;
+        float: right; 
+        margin-right: 10px; 
+        background-blend-mode: overlay;
+        border-radius: 25%;
+      } 
+      
+    p {
+      font-size: 1.5rem;
+          margin-right: 420px;
+      margin-left: 30px;
+    } 
+    h1,h2,h3
+    {
+      font-size: 1.5rem;
+      margin-left: 30px ;
+    }    
+    .underline
+    {
+         color:rgb(234, 194, 194);
+         font-size: 40px;
+    }
+    .color 
+    {
+      color:lightskyblue;
+    }
+       
+    
+    </style>
+    <nav>
+     <div class="navbar">
+
+<ul>
+  <li><a href="index.html" class="active" style="display: flex;">HOME PAGE</a></li> &nbsp;
+<li><a href="academics.html">ACADEMICS</a></li>
+ <li><a href="hobbies.html">HOBBIES</a></li>
+<li><a href="achievements.html">ACHIEVEMENTS</a></li>
+  <li><a href="startupideaas.html">STARTUP IDEAS</a></li>
+  <li><a href="sloganspectrum.html">SLOGAN SPECTRUM</a></li>
+  <li><a href="feedbackform.html">FEEDBACK FORM</a></li>
+  <!-- <li><a href="contactme.html">CONTACT ME</a></li> -->
+</ul></div></nav>
+<div class="container">
+<div class="column">
+<div> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<h1  style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" class="underline">HELLO!!<br>
+  I'M <span style="color:white"> HARMI KOTAK</span>
+</h1>
+
+<h2 style="font-family:Arial, Helvetica, sans-serif" class="color">
+  SOFTWARE ENGINEER 
+</h2> 
+<h3 class="color">
+  I'M A PASSIONATE SOFTWARE ENGINEER, WITH A STRONG AND SOLID FOUNDATION OF TECHNICAL KNOWLEDGE AND A STRONG ABILITY TO WORK AND LEAD TEAM.
+  I DESIRE TO BE HELPFUL THE SOCIETY BY APPLYING MY SKILLS...!!</h3>
+  <div class="btn-box" style="align: left">
+    <a href="contactme.html">Contact Me</a>
+          </div>
+</h3> 
+</div> 
+</div> 
+<div class="column">
+  <img src="mypic2.jpg" class="image"> 
+  </div>
+</div>
+<footer>
+  <div class="footer-content">
+      <ul class="social-links">
+    <h2> Get In Touch</h2><br>
+
+          &nbsp;<a href="harmi.kotak@gmail.com"><img src="gmailtransparent.png" height="50px" width="50px"></a>
+         &nbsp; <a href="https://www.instagram.com/harmi.2205/?utm_source=qr&igsh=Mmp5NXo2Y2VtNDQw"><img src="insta.png" height="50px" width="50px"></a>
+         &nbsp; <a href="www.linkedin.com/in/harmi-kotak-2a4806285"><img src="linkedin.jpg" height="50px" width="50px"></a>
+         &nbsp; <a href="https://github.com/Harmi-kotak22"><img src="githubtransparent.png" height="50px" width="50px"></a>
+         &nbsp; <a href="https://twitter.com/"><img src="twitter.png" height="50px" width="50px"></a>
+         &nbsp; <a href="https://github.com/Harmi-kotak22"><img src="facebook.jpg" height="50px" width="50px"></a>
+        
+      </ul>
+  </div>
+  <div class="copyright">
+      <div class="align">&copy; Harmi Kotak - All Rights Reserved</div>
+  </div>
+</footer>
+
+</body>
+</html>
